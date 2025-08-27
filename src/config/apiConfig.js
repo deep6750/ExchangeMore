@@ -3,12 +3,12 @@
 
 export const API_CONFIG = {
   // Twelve Data API - Get your free API key from https://twelvedata.com/
-  TWELVE_DATA_API_KEY: '8c01754c71074264b44d9a30925b5a39',
+  TWELVE_DATA_API_KEY: process.env.EXPO_PUBLIC_TWELVE_DATA_API_KEY,
   TWELVE_DATA_BASE_URL: 'https://api.twelvedata.com',
   
   // Supabase Configuration - Get from your Supabase project dashboard
-  SUPABASE_URL: 'https://yhspwriqgamrnjncderf.supabase.co',
-  SUPABASE_ANON_KEY: 'yhspwriqgamrnjncderf',
+  SUPABASE_URL: process.env.EXPO_PUBLIC_SUPABASE_URL,
+  SUPABASE_ANON_KEY: process.env.EXPO_PUBLIC_SUPABASE_ANON_KEY,
   
   // App Configuration
   APP_NAME: 'Grover Forex',
