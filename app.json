@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Grover Forex",
+    "slug": "grover-forex",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0D1421",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "web": {
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "89f26f8e-9c30-4925-b853-2483fe0d529d"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.deep6750.groverforex",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    }
+  }
+}
